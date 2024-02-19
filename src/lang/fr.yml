@@ -1,0 +1,905 @@
+Voici la traduction du fichier YAML de l'anglais vers le français :
+
+```yaml
+swnr:
+  title: "Stars Without Number: Révisé"
+  CharacterActorSheet: Fiche Basique
+  stat:
+    long:
+      str: Force
+      dex: Dextérité
+      con: Constitution
+      int: Intelligence
+      wis: Sagesse
+      cha: Charisme
+    short:
+      str: FOR
+      dex: DEX
+      con: CON
+      int: INT
+      wis: SAG
+      cha: CHA
+  skills:
+    revised:
+      administer:
+        name: Administrer
+        text: >-
+          Gérer une organisation, s'occuper de la paperasse, analyser les
+          dossiers et maintenir une institution en fonctionnement au quotidien.
+          Utilisez-le pour l'expertise bureaucratique, la gestion organisationnelle,
+          la connaissance juridique, les interactions avec les agences gouvernementales,
+          et comprendre comment fonctionnent réellement les institutions.
+      connect:
+        name: Connecter
+        text: >-
+          Trouver des personnes qui peuvent être utiles à vos objectifs et les
+          amener à coopérer avec vous. Utilisez-le pour créer des liens utiles avec
+          d'autres, trouver des connaissances, savoir où obtenir des biens et services
+          illicites, et connaître les cultures et langues étrangères. Vous pouvez
+          l'utiliser à la place de Parler pour persuader les gens que vous trouvez via
+          cette compétence.
+      exert:
+        name: Exercer
+        text: >-
+          Appliquer la vitesse, la force ou l'endurance entraînée dans un exploit
+          physique. Utilisez-le pour courir, sauter, soulever, nager, grimper, lancer,
+          etc. Vous pouvez l'utiliser comme compétence de combat lors du lancer d'objets,
+          bien qu'elle ne qualifie pas comme compétence de combat pour d'autres fins.
+      fix:
+        name: Réparer
+        text: >-
+          Créer et réparer des dispositifs simples et complexes. La complexité
+          dépendra du passé de votre personnage ; un forgeron d'un monde perdu aura
+          besoin de temps d'étude avant de pouvoir réparer ce réacteur à fusion cassé,
+          bien qu'il puisse le faire éventuellement. Utilisez-le pour réparer des objets,
+          construire des choses, et identifier à quoi quelque chose est censé servir.
+      heal:
+        name: Soigner
+        text: >-
+          Utiliser des traitements médicaux et psychologiques pour les blessés ou
+          perturbés. Utilisez-le pour soigner des maladies, stabiliser les blessés
+          critiques, traiter des troubles psychologiques, ou diagnostiquer des maladies.
+      know:
+        name: Connaître
+        text: >-
+          Connaître des faits sur des domaines académiques ou scientifiques. Utilisez-le
+          pour comprendre les écologies planétaires, se souvenir de l'histoire pertinente,
+          résoudre des mystères scientifiques, et connaître les faits de base sur des sujets
+          rares ou ésotériques.
+      lead:
+        name: Diriger
+        text: >-
+          Convaincre les autres de faire également ce que vous essayez de faire. Parler
+          pourrait les persuader que vous suivre est intelligent, mais Diriger peut les
+          faire agir même lorsqu'ils pensent que c'est une mauvaise idée. Utilisez-le pour
+          diriger des troupes au combat, convaincre d'autres de vous suivre, ou maintenir
+          le moral et la discipline.
+      notice:
+        name: Remarquer
+        text: >-
+          Repérer des anomalies ou des faits intéressants sur votre environnement.
+          Utilisez-le pour chercher des lieux, détecter des embuscades, repérer des choses,
+          et lire l'état émotionnel d'autres personnes.
+      perform:
+        name: Performer
+        text: >-
+          Exposer une compétence de performance. Utilisez-le pour danser, chanter, orater,
+          agir, ou autrement réaliser une performance convaincante ou émotionnellement
+          touchante.
+      pilot:
+        name: Piloter
+        text: >-
+          Utilisez cette compétence pour piloter des véhicules ou monter des bêtes.
+          Utilisez-le pour
+
+ piloter des vaisseaux spatiaux, conduire des véhicules, monter
+          des animaux, ou s'occuper de la réparation basique de véhicules. Cette compétence
+          ne vous aide pas avec des choses totalement en dehors du champ de votre expérience
+          ou de votre passé, bien qu'avec un peu de pratique un PJ puisse élargir son expertise.
+      program:
+        name: Programmer
+        text: >-
+          Opérer ou pirater du matériel informatique et de communication. Utilisez-le pour
+          programmer ou pirater des ordinateurs, contrôler du matériel informatique,
+          opérer des technologies de communication, ou décrypter des choses.
+      punch:
+        name: Frapper
+        text: >-
+          Utilisez-le comme compétence de combat lors de combats à mains nues. Si votre PJ
+          a l'intention d'en faire une habitude plutôt que comme un recours en désespoir de
+          cause, vous devriez prendre l'accentuation Combattant Désarmé décrite plus tard.
+      shoot:
+        name: Tirer
+        text: >-
+          Utilisez-le comme compétence de combat lors de l'utilisation d'armes à distance,
+          que ce soit des pierres lancées, des arcs, des pistolets laser, des fusils de combat,
+          ou de l'artillerie de vaisseau.
+      sneak:
+        name: Se faufiler
+        text: >-
+          Bouger sans attirer l'attention. Utilisez-le pour la furtivité, le déguisement,
+          l'infiltration, la prestidigitation manuelle, le vol à la tire, et la défaite des
+          mesures de sécurité.
+      stab:
+        name: Poignarder
+        text: >-
+          Utilisez-le comme compétence de combat lors de l'utilisation d'armes de mêlée,
+          qu'elles soient primitives ou complexes.
+      survive:
+        name: Survivre
+        text: >-
+          Obtenir les bases de nourriture, d'eau et d'abri dans des environnements hostiles,
+          ainsi qu'éviter leurs périls naturels. Utilisez-le pour gérer des animaux,
+          naviguer dans des terrains difficiles, récupérer des ressources urbaines, fabriquer
+          des outils basiques, et éviter les bêtes sauvages ou les gangs.
+      talk:
+        name: Parler
+        text: >-
+          Convaincre d'autres personnes des faits que vous voulez qu'ils croient. Ce qu'ils
+          font de cette conviction peut ne pas être totalement prévisible. Utilisez-le pour
+          persuader, charmer, ou tromper d'autres dans la conversation.
+      trade:
+        name: Échanger
+        text: >-
+          Trouver ce dont vous avez besoin sur le marché et vendre ce que vous avez.
+          Utilisez-le pour vendre ou acheter des choses, déterminer où acheter des biens
+          difficiles à obtenir ou illicites, traiter avec des agents des douanes, ou gérer
+          une entreprise.
+      work:
+        name: Travailler
+        text: >-
+          Il s'agit d'une compétence fourre-tout pour les professions non représentées par
+          d'autres compétences. Utilisez-le pour travailler dans une profession particulière,
+          art, ou métier
+    spaceMagic:
+      knowMagic:
+        name: Connaître la Magie
+        text: ""
+      useMagic:
+        name: Utiliser la Magie
+        text: ""
+      sunblade:
+        name: Lame solaire
+        text: ""
+      fight:
+        name: Combattre
+        text: ""
+    classic:
+      artist:
+        name: Artiste
+        text: ""
+      athletics:
+        name: Athlétisme
+        text: ""
+      bureaucracy:
+        name: Bureaucratie
+        text: ""
+      business:
+        name: Affaires
+        text: ""
+      combat-energy:
+        name: Combat/Énergie
+        text: ""
+      combat-gunnery:
+        name: Combat/Artillerie
+        text: ""
+      combat-primitive:
+        name: Combat/Primitif
+        text: ""
+      combat-projectile:
+        name: Combat/Projectile
+        text: ""
+      combat-psitech:
+        name: Combat/Psitech
+        text: ""
+      combat-unarmed:
+        name: Combat/Désarmé
+        text: ""
+      computer:
+        name: Informatique
+        text: ""
+      culture-alien:
+        name: Culture/Extraterrestre/
+
+
+        text: ""
+      culture-criminal:
+        name: Culture/Criminelle
+        text: ""
+      culture-spacer:
+        name: Culture/Espace
+        text: ""
+      culture-traveller:
+        name: Culture/Voyageur
+        text: ""
+      culture:
+        name: Culture/
+        text: ""
+      exosuit:
+        name: Exosuit
+        text: ""
+      gambling:
+        name: Jeu
+        text: ""
+      history:
+        name: Histoire
+        text: ""
+      instructor:
+        name: Instructeur
+        text: ""
+      language:
+        name: Langue
+        text: ""
+      leadership:
+        name: Leadership
+        text: ""
+      navigation:
+        name: Navigation
+        text: ""
+      perception:
+        name: Perception
+        text: ""
+      persuade:
+        name: Persuader
+        text: ""
+      profession:
+        name: Profession/
+        text: ""
+      religion:
+        name: Religion
+        text: ""
+      science:
+        name: Science
+        text: ""
+      security:
+        name: Sécurité
+        text: ""
+      stealth:
+        name: Furtivité
+        text: ""
+      steward:
+        name: Intendant
+        text: ""
+      survival:
+        name: Survie
+        text: ""
+      tactics:
+        name: Tactique
+        text: ""
+      tech-astronautic:
+        name: Tech/Astronautique
+        text: ""
+      tech-maltech:
+        name: Tech/Maltech
+        text: ""
+      tech-medical:
+        name: Tech/Médicale
+        text: ""
+      tech-postech:
+        name: Tech/Postech
+        text: ""
+      tech-pretech:
+        name: Tech/Pretech
+        text: ""
+      tech-psitech:
+        name: Tech/Psitech
+        text: ""
+      vehicle-air:
+        name: Véhicule/Aérien
+        text: ""
+      vehicle-grav:
+        name: Véhicule/Grav
+        text: ""
+      vehicle-land:
+        name: Véhicule/Terre
+        text: ""
+      vehicle-space:
+        name: Véhicule/Espace
+        text: ""
+      vehicle-water:
+        name: Véhicule/Eau
+        text: ""
+    psionic:
+      biopsionics:
+        name: Biopsioniques
+        text: >-
+          Maîtriser les pouvoirs de réparation physique, d'augmentation corporelle,
+          et de métamorphose.
+      metapsionics:
+        name: Métapsioniques
+        text: >-
+          Maîtriser les pouvoirs qui annulent, boostent, et façonnent l'utilisation
+          d'autres capacités psychiques.
+      precognition:
+        name: Précognition
+        text: Maîtriser la capacité de sentir les événements futurs et de contrôler la probabilité.
+      telekinesis:
+        name: Télékinésie
+        text: >-
+          Maîtriser le contrôle à distance de l'énergie cinétique pour déplacer des objets
+          et fabriquer des constructions de force.
+      telepathy:
+        name: Télépathie
+        text: Maîtriser la lecture et l'influence d'autres esprits sapient.
+      teleportation:
+        name: Téléportation
+        text: Maîtriser les arts de la translocation physique de vous-même et des alliés.
+    original: {}
+    labels:
+      spaceMagic: Magie Spatiale
+      classic: Classique
+      revised: Révisé
+      psionic: Psionique
+  sheet:
+    background: Arrière-plan
+    class: Classe
+    homeworld: Monde natal
+    species: Espèce/Genre
+    level: Niveau
+    stats: Statistiques
+    base: Base
+    boosts: Boosts
+    bonus: Bonus
+    total: Total
+    modifier: Modificateur
+    temp: Temp
+    mod: Mod
+    saves:
+      save: Sauvegarde
+      luck: Chance
+      physical: Physique
+      mental: Mental
+      evasion: Évasion
+    name: Nom
+    armor-class: Classe d'Armure
+    armor: Armure
+    access: Accès
+    hp: PV
+    permanent-strain: Tension Perm.
+    attack-bonus: Bonus d'Attaque
+    system-strain: Tension Système
+    ss: Tension
+    ac: CA
+    ab: BA
+    credit-change: Ajouter/Retirer
+    tabs:
+      biography: Biographie
+      debug: Débogage Fiche
+      skills: Comp
+
+étences
+      weapons: Armes
+      inventory: Inventaire
+      armor: Armure
+      foci: Foci
+      edge: Avantage
+      other: Autre
+      powers: Pouvoirs
+      combat: Combat
+      stats: Statistiques
+    xp: XP
+    power: Pouvoir
+    powers:
+      roll: Lancer
+      duration: Durée
+      save: Sauvegarde
+      skill: Bouton Compétence (ex. dex/pilote)
+      range: Portée
+      prepared: Est Préparé ?
+    resources: Ressources
+    delete-item: Supprimer l'Objet
+    show-item: Afficher l'Objet
+    edit-item: Modifier l'Objet
+    reload-item: Recharger l'Objet
+    add-item: Ajouter l'Objet
+    search-item: Rechercher pour Ajouter l'Objet
+    break-item: Casser/Désactiver l'Objet
+    jury-rig: Bricoler l'Objet
+    fix-item: Réparer l'Objet
+    destroy-item: Détruire l'Objet
+    ask: Demander
+    description: "Description :"
+    ammoType: Type de Munitions
+    longReload: Rechargement Long
+    burst: Tir en Rafale
+    magazine: Chargeur
+    suppress: Tir de Suppression
+    skill: Compétence
+    employer: Employeur
+    source: Source
+    factionname: Faction
+    movement: Mouvement
+    base-ac: CA de Base
+    vs: contre
+    rollables: Lancés
+    roll-skill: Lancer Compétence
+    hit-dice: Dés de Vie
+    hd: Dés de Vie par niveau (sans mod. CON)
+    command-points: Points de Commandement
+    npc-command-points: CP de Vaisseau PNJ
+    unspent-skill: Points de Compétence Non Dépensés
+    unspent-psy-skill: Points de Compétence Psychique Non Dépensés
+    add-skill: Ajouter Nouvelle Compétence
+    level-up: Monter de Niveau
+    rest: Repos d'une nuit
+    scene: Fin de Scène
+    traumaTarget: Cible de Traumatisme
+    traumaTargetShort: CT
+    rest-desc: Appliquer un bon repos nocturne (réinitialiser l'effort, baisser la tension, soigner les PV) ?
+    rest-title: Appliquer un Bon Repos Nocturne ?
+    cyberware:
+      disabled: Désactivé
+      strain: Tension
+      name: Cybernétique
+      concealment: Dissimulation
+      concealmentShort: Dissim.
+      type: Type
+      complication: Complication
+      conc:
+        sight: Vue
+        touch: Toucher
+        medical: Médical
+      types:
+        head: Tête
+        body: Corps
+        skin: Peau
+        limb: Membre
+        nerve: Nerf
+        sensory: Sensoriel
+    type:
+      mech: Mech
+      ship: Vaisseau
+      vehicle: Véhicule
+      drone: Drone
+      desc: Vaisseau/Mech/Véhicule/Drone
+    mech:
+      name: Nom du Mech
+      mechClass:
+        suit: Combinaison
+        light: Léger
+        heavy: Lourd
+      mech-class: Classe du Mech
+      mech-hull: Type de Coque du Mech
+      pilot: Pilote
+    drone:
+      enc: Encombrement
+      range: Portée
+      tl: TL
+      name: Nom du Drone
+      fittings: Équipements (masse)
+      hardpoints: Points d'Attache
+      fitTip: CWN utilise les points d'attache pour les armes. Si max de points d'attache > 0, le système comptera les armes de vaisseau/véhicule et les armes contre les points d'attache et non les équipements.
+      model: Modèle
+      moveType: Type de Mouvement
+      move: Mouvement
+      models:
+        custom: Personnalisé
+        primitive-drone: Drone Primitif
+        void-hawk: Faucon du Vide
+        stalker: Traqueur
+        cuttlefish: Seiche
+        ghostwalker: Marcheur Fantôme
+        sleeper: Dormeur
+        pax: Pax
+        alecto: Alecto
+    vehicle:
+      tonnage: Tonnage
+      kmph: KM/H
+      tl: TL
+      name: Nom du Véhicule
+      size: Taille
+      vehicle-class:
+        s: S
+        m
+
+: M
+        l: L
+    faction:
+      forceRating: Évaluation de Force
+      cunningRating: Évaluation de Ruse
+      wealthRating: Évaluation de Richesse
+      facCreds: FacCreds
+      xp: XP
+      homeworld: Monde Natal
+      tags: Tags
+      assets: Actifs
+      assetType: Type d'Actif
+      baseOfInfluence: Base d'Influence
+      attackSource: Source
+      attackTarget: Cible
+      attackDamage: Dégâts
+      attackSpecial: Note d'Attaque Spéciale
+      counter: Contre
+      note: Note
+      turnRoll: Au Tour Journal/Rouleau
+      stealthed: Est Furtif ?
+      tl: TL
+      rating: Évaluation
+      hp: PV
+      assets-tab: Actifs
+      desc-tab: Description
+      tags-tab: Tags
+      log-tab: Journal
+      add-tag: Ajouter Tag
+      add-tag-custom: Ajouter Tag Personnalisé
+      remove-tag: Supprimer Tag
+      remove-log: Supprimer Entrée de Journal
+      add-log: Ajouter Entrée de Journal Manuelle
+      remove-log-all: Supprimer Toutes les Entrées de Journal
+      active: Faction Active
+      attack-roll: Rouleau d'Attaque
+      counter-roll: Rouleau de Contre
+      damage: Dégâts
+      attack: Attaque
+      att-damage: Dégâts d'Attaque
+      def-damage: Dégâts de Défense
+      att-roll: Rouleau d'Attaquant
+      def-roll: Rouleau de Défenseur
+      factionGoal: Objectif de la Faction
+      factionGoalDesc: Description de l'Objectif
+      setGoal: Définir l'Objectif
+      location: Emplacement
+      maintenance: Maintenance
+      income: Revenu
+      unusable: Inutilisable
+      turn: Commencer Tour
+      setHomeworld: Définir le monde natal de la faction à {name} ?
+      abandonGoal: Abandonner l'objectif actuel {name} ? Perdrez le revenu et aucune action ce tour.
+    ship:
+      life-support-days: Jours de Support de Vie
+      fuel: Carburant
+      power: Puissance
+      mass: Masse
+      speed: Vitesse
+      hard-points: Points durs
+      ship-class: Classe de Vaisseau
+      min-ship-class: Classe Min.
+      ship-hull-type: Type de Coque de Vaisseau
+      cargo: Cargo
+      operating-cost: Coût d'Opération
+      maintenance-cost: Coût de Maintenance
+      amount-owed: Montant Dû
+      credit-pool: Piscine de Crédits du Vaisseau
+      payment-amount: Montant du Paiement
+      payment-months: Mois Entre les Paiements
+      maintenance-months: Mois Entre les Maintenances
+      last-payment: Dernier Paiement (AAAA/MM/JJ)
+      cost: Coût
+      last-maintenance: Dernière Maintenance (AAAA/MM/JJ)
+      calc-cost: Calculer le coût pour le vaisseau (en utilisant la coque et les objets)
+      make-payment: Effectuer un paiement (en utilisant la piscine du vaisseau)
+      pay-maintenance: Payer la maintenance (en utilisant la piscine du vaisseau)
+      crew: Équipage (min/act/max)
+      shipHullType:
+        strikeFighter: Chasseur d'Attaque
+        shuttle: Navette
+        freeMerchant: Marchand Libre
+        patrolBoat: Bateau de Patrouille
+        corvette: Corvette
+        heavyFrigate: Frégate Lourde
+        bulkFreighter: Cargo en Vrac
+        fleetCruiser: Croiseur de Flotte
+        battleship: Cuirassé
+        carrier: Porte-Avions
+        smallStation: Petite Station
+        largeStation: Grande Station
+      shipClass:
+        fighter: Chasseur
+        frigate: Frégate
+        cruiser: Croiseur
+        capital: Capitale
+      weapons: Armes
+      weapon: Arme
+      defense: Défense
+      fittings: Ajustements
+      stations: Stations
+      weapons-tab: Armes/Défense/Ajustements
+      notes-tab: Notes/ Description
+      crew-tab: Membres d'Équipage
+      cost-tab: Coûts de Vaisseau
+      cargo-tab: Cargo
+      crew-name: Membre d'Équipage
+      crew-s
+
+kill-bonus: Bonus d'Équipage de Vaisseau PNJ
+      crew-skill-bonus-note: (Mod. aux attaques et aux lancers de compétences)
+      name: Nom
+      dmg: Dmg
+      qualities: Qualités
+      effect: Effet
+      broken: Est Cassé ?
+      destroyed: Est Détruit ?
+      jury-rigged: Est Bricolé ?
+      shooter: Tireur
+      travel: Jours de Voyage
+      spike: Perceuse à Pointes
+      spike-drive: Lecteur à Pointes
+      crisis: Crise
+      system-failure: Défaillance(s) Système
+      repair-all: Tout Réparer
+      sensor-roll: Lancer de Capteur
+      refuel: Recharger
+      costMultiplier: Multiplier le coût par classe
+      powerMultiplier: Multiplier la puissance par classe
+      massMultiplier: Multiplier la masse par classe
+      station:
+        captain: Capitaine
+        gunnery: Artillerie
+        bridge: Pont
+        engineering: Ingénierie
+        comms: Communications
+        role: Station
+        crew: Équipage
+      cargo-name: Nom / Description du Cargo
+    cyberdeck:
+      shielding: Blindage
+      hacker: Hacker
+      bonusAccess: Accès Bonus
+      memory: Mémoire
+      cpu: CPU
+      baseShielding: Blindage de Base
+      bonusShielding: Blindage Bonus
+      neuralBuffer: Tampon Neuronal
+      wirelessConnectionPenalty: Sans Fil (-2)
+      crownPenalty: Couronne (-1)
+      run: Lancer/ Activer Programme
+    program:
+      type: Type
+      verb: Verbe
+      subject: Sujet
+      datafile: Fichier de Données
+      running: Programme Actif/En Cours
+      cost: Coût
+      use: Utiliser
+      affect: Affecte
+      selfTerminating: Auto-Terminant
+      accessCost: Coût d'Accès
+      accessCostShort: C/A
+      skillCheckMod: Modificateur de Contrôle de Compétence
+      target: Type de Sujet
+      targetAllowed: Types de Cibles Autorisés
+      targetAllowedShort: Cibles
+      subjectType: Type de Sujet
+      attackRoll: Lancer d'Attaque
+      skillRoll: Lancer de Compétence
+    tweaks: Ajustements
+  settings:
+    useRollNPCHD: Utiliser HD NPC lors de la création de token ?
+    useRollNPCHDHint: Lors de la création d'un token npc, si les PV ou les Dés de Vie (HD) n'ont pas été lancés, cela lancera automatiquement d8 HD pour la santé.
+    useHomebrewLuckSave: Utiliser les sauvegardes de Chance Homebrew ?
+    useHomebrewLuckSaveHint: Utilise 16 - Niveau pour la sauvegarde, sans modificateurs, juste pure chance
+    addShockMessage: Ajouter Message de Dégâts de Choc ?
+    addShockMessageHint: Lors d'une attaque, cela ajoute un autre lancer pour les dégâts de choc dans le message de chat d'attaque.
+    showTempAttrMod: Afficher les Modificateurs Temporaires d'Attribut Total ?
+    showTempAttrModHint: Sur la barre latérale du personnage, affiche les modificateurs temporaires à un attribut (par exemple, dommage d'attribut)
+    attrRoll: Lancer de Stat/Attribut
+    attrRollHint: Quelle action/lancer, le cas échéant, à prendre sur un lancer/clic de stat ?
+    attrRollNo: Rien
+    attrRolld20: d20 + mod
+    attrRoll2d6: 2d6 + mod
+    attrRollUnder: Lancer d20 sous
+    attrRollUnderEqual: Lancer d20 sous ou égal
+    attackRoll: Lancer d'Attaque ?
+    attackRollHint: Que lancer pour les attaques ?
+    useTrauma: Utiliser Traumatisme ?
+    useTraumaHint: Utiliser les dés de traumatisme CWN pour lancer des attaques ?
+    useCWNArmor: Utiliser les Options d'Armure CWN ?
+    useCWNArmorHint: Utiliser les options d'armure CWN (absorption, AC de mêlée et à distance) ?
+    useCWNCyber: Utiliser les Options Cyber CWN ?
+    useCWNCyberHint: Utiliser les options cyber CWN (dissimulation, type, complications, etc) ?
+    search
+
+: Recherche d'élément de compendium ?
+    searchHint: Quels compendiums rechercher pour ajouter des éléments dans la fiche ?
+  chat:
+    dicepool: Piscine de Dés
+    difficulty: Difficulté
+    modifier: Modificateur
+    roll: Lancer
+    cancel: Annuler
+    skillCheck: Contrôle de Compétence
+    savingThrow: Lancer de Sauvegarde
+    statApply: Appliquer stats à {name}
+    statRollFlavor: "{name} lance {stat}"
+    totalModifier: Modificateur Total
+    statRoll: Lancer stats
+    savemoddesc: (Positif rend plus facile, négatif plus difficile)
+    spike:
+      fail3: >-
+        Incursion catastrophique d'énergie dimensionnelle.
+        Le vaisseau émerge autour d'une étoile dans 1d6 hexagones
+        de la destination cible avec le lecteur et tous les systèmes détruits.
+      fail4-5: >-
+        Sursaut de cisaillement submerge les systèmes internes.
+        Le vaisseau émerge autour de l'étoile la plus proche de l'origine du perçage.
+        50 % de chance pour chaque système d'être
+        désactivé jusqu'à réparation. Si le lecteur à pointes est
+        désactivé, traiter comme si un 3 avait été lancé.
+      fail6-8: >-
+        Pic de puissance. Un système désactivé jusqu'à
+        réparation, vaisseau coincé en transit pendant la durée
+        complète de base avant de pouvoir faire un autre
+        contrôle de Pilote. Si le lecteur à pointes échoue, traiter comme si
+        un 3 avait été lancé.
+      fail9-12: >-
+        Vaisseau hors cours. Passer le temps de base en transit,
+        puis faire un autre contrôle de Pilote.
+      fail13-15: >-
+        Vaisseau hors cours, mais détecté tôt. Faire
+        un autre contrôle de Pilote.
+      fail16-17: >-
+        Perçage réussi, mais prend deux fois le temps de base
+      fail18: Perçage réussi et à l'heure, par pure chance.
+  ammo:
+    ammo: Munitions Standard
+    missile: Missiles
+    none: Aucun
+    special: Spécialité
+    typeAPower: Cellule d'Énergie Type A
+    typeBPower: Cellule d'Énergie Type B
+    infinite: Infini
+  foci:
+    level2: "Niveau 2 :"
+    level1: "Niveau 1 :"
+    level: Niveau Actuel
+  item:
+    bundledCount: Nombre Groupé
+    cost: Coût
+    encumbrance: Encombrement
+    enc: Enc.
+    qty: Qté
+    quality:
+      stock: Stock
+      label: Qualité
+      juryRigged: Bricolé
+      mastercrafted: Chef-d'œuvre
+    techlevel: Niveau Technologique
+    quantity: Quantité
+    location: Emplacement
+    locationOther: Autre
+    locationStowed: Stocké
+    locationReadied: Préparé
+    range: Portée
+    favorite: Favori
+  weapon:
+    shock:
+      label: Dégâts de Choc
+      ac: CA
+    trauma:
+      label: Traumatisme
+      die: Dés de Traumatisme
+      rating: Évaluation de Traumatisme
+      damage: Dégâts de Traumatisme
+    damage: Dégâts
+    damageFormula: Formule de Dégâts
+    attackBonus: Bonus d'Attaque
+    ammo: Munitions
+    noSetSkill: Aucune Compétence Définie
+    burst: Utiliser Tir en Rafale
+    skillAddDamage: Compétence ajoute aux dégâts
+    skillAddShockDamage: Compétence ajoute aux dégâts de choc
+    remember: Se souvenir de ces paramètres (ne pas demander à nouveau, réinitialiser dans l'édition)
+  titles:
+    savingThrow: "{throwType} Lancer de Sauvegarde"
+  effort:
+    bonus: Bonus
+    current: Actuel
+    day: Jour
+    scene: Scène
+    title: Effort
+    max: Max
+  dialog:
+    attackRoll: "{actorName} attaquant avec {weaponName} ?"
+    spikeRoll: "{actorName} faisant un lancer de pointe"
+
+
+    sensorRoll: "{actorName} faisant un lancer de capteur"
+    sysFailure: "Lancer des défaillances système pour {actorName}"
+    skillRoll: "Lancer de compétence pour {actorName}"
+    failure:
+      inc-drive: Inclure Lecteur (Niveau de Pointe Diminué)
+      inc-wpn: Inclure Armes
+      inc-fit: Inclure Ajustements
+      inc-def: Inclure Défenses
+      what: Quoi échouer ? <br>(désactiver/casser un système déjà désactivé le détruira)
+      dest-all: Tout Détruire
+      break-all: Casser/désactiver Tout
+      all-50: 50 % de chance de casser/désactiver chaque système
+      break-1: Casser/désactiver un système
+    add-skills: Ajouter Compétences
+    add-bulk-skills: Ajouter en Masse Compétences à {actor}
+    tweak-char: "Options de réglage pour {actorName}"
+    save-changes: "Sauvegarder les Changements"
+    tweak:
+      adv-init: Avantage d'Initiative (lancer 2x et garder le plus haut)
+      quick-skill-1: Compétence Rapide 1
+      quick-skill-2: Compétence Rapide 2
+      quick-skill-3: Compétence Rapide 3
+      debtDisplay: Nom de la Monnaie 1
+      owedDisplay: Nom de la Monnaie 3
+      balanceDisplay: Nom de la Monnaie 2
+      extra-effort-name: Nom de l'Effort Supplémentaire (laisser vide pour ne pas afficher sur la fiche)
+      show-resource-list: >- 
+        Sur l'onglet combat, afficher le suivi de ressource optionnel.
+        Cela vous permet d'ajouter une ressource arbitraire qui
+        suit une valeur et un max (juste 2 nombres vraiment) avec
+        un nom personnalisé. Vous pouvez supprimer ces attributs
+        de la liste.
+    hp: 
+      title: Confirmer le lancer de dés de vie de niveau pour {actor}.
+      text: "Confirmer le lancer de {level} dés de vie de niveau pour {actor}. Chaque HD de niveau (inclut le mod. CON) est {formula}, où max signifie prendre le plus élevé du lancer avec les modificateurs ou 1 (notez que ce n'est pas un nombre fractionnaire comme 0,1). Cette action définira les PV sur les résultats du lancer ou les PV actuels + 1, le plus grand. Pour changer le dés de vie voir l'onglet de statistiques."
+      revised: Expert/Psychique Révisé d6
+      revised-war: Guerrier/Partiel Guerrier Révisé d6+2
+      codex-mage: Arcaniste / Magister d6-1
+      classic-psy: Psychique Classique d4
+      classic-exp: Expert Classique d6
+      classic-war: Guerrier Classique d8
+  roll:
+    skillNeeded: Hé ! Vous devez choisir une compétence !
+  armor:
+    type:
+      combat: Combat
+      label: Type
+      powered: Motorisé
+      primitive: Primitif
+      street: Rue
+    innateArmorClass: Classe d'Armure Innée
+    equipped: Équipé
+    shield: Compte comme un bouclier
+    soak:
+      label: Absorption
+    dr: Réduction de Dégâts
+    subtle: Est Subtil ?
+    heavy: Est Lourd ?
+    ranged: À Distance
+    melee: Mêlée
+    shieldAC: Bonus de CA de Bouclier
+    traumaMod: Mod. de Cible de Traumatisme
+  npc:
+    reaction:
+      unknown: Inconnu
+      hostile: Hostile
+      negative: Négatif
+      neutral: Neutre
+      positive: Positif
+      friendly: Amical
+    morale-check: Contrôle de Moral
+    trained-skill: Compétence Formée
+    attacks-per-turn: Attaques par Tour
+    attack-bonus-hit: Bonus d'Attaque pour Toucher
+    attack-bonus-damage: Bonus d'Attaque Dégâts
+    abilities: Capacités
+    combat: Combat
+    equipment: Équipement
+    skilled-with-weapon: Compétent avec Arme
+    morale:
+      failure: Échoue à leur Contrôle de Moral !
+      success: Réussit à
+
+ leur Contrôle de Moral !
+    skill:
+      trained: "{actor} utilise leur compétence formée."
+      untrained: "{actor} utilise leur compétence non formée."
+    unarmed: Désarmé
+    saving:
+      failure: "{actor} a échoué (cible : {target})"
+      success: "{actor} a réussi (cible : {target})"
+  migration:
+    start: >-
+      SWNR : Commencement de la migration de {oldVersion} à {newVersion}. Veuillez
+      laisser cela finir avant de fermer.
+    done: "SWNR : Migration Terminée à {newVersion}"
+    needsGM: >-
+      SWNR : Un MJ doit se connecter pour effectuer {count} migrations de {oldVersion}
+      à {newVersion} !
+  credits:
+    debts: Dettes
+    balance: Solde
+    owed: Dû
+  deleteTitle: Supprimer {name} ?
+  deleteCrew: Voulez-vous retirer {name} de l'équipage ?
+  deletePilot: Voulez-vous retirer {name} comme pilote ?
+  deleteContent: Êtes-vous sûr de vouloir supprimer {name} de l'acteur {actor} ? (maintenir shift pour passer le dialogue de confirmation)
+  AddCurrency: Ajouter Monnaie
+  InvalidNumber: Entrez un nombre entier valide
+```
